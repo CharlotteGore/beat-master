@@ -1,0 +1,20 @@
+{
+  "name": "beat-master",
+  "repo": "charlottegore/beat-master",
+  "description": "A scheduler for Web Audio",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "charlottegore/tick": "*",
+    "gorillatron/extend": "*",
+    "green-mesa/backbone-events": "*",
+    "charlottegore/shared-context": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": []
+}
