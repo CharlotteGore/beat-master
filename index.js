@@ -44,9 +44,9 @@ BeatMaster.prototype = {
 		}
 
 	},
-	setBPM : function(){
+	setBPM : function( bpm ){
 
-		this.beatsPerMin = 120;
+		this.beatsPerMin = bpm || 120;
 		this.msPerBeat = 60000 / this.beatsPerMin;
 		this.webAudioBeatDuration =	this.msPerBeat / 1000;
 
